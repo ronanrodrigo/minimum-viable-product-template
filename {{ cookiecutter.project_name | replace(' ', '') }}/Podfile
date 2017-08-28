@@ -1,0 +1,5 @@
+target '{{ cookiecutter.project_name | replace(' ', '') }}' do
+    use_frameworks!
+    #pod 'Lookback'
+    pod 'Lookback/SelfTest'
+end
