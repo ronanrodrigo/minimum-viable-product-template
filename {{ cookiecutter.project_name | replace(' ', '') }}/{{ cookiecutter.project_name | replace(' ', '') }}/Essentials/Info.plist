@@ -34,10 +34,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>lookback-{{ cookiecutter.project_name | lower | replace(&apos; &apos;, &apos;-&apos;) }}</string>
+			<string>lookback-{{ cookiecutter.project_name | lower | replace(' ', '-') }}</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>lookback-{{ cookiecutter.project_name | lower | replace(&apos; &apos;, &apos;-&apos;) }}</string>
+				<string>lookback-{{ cookiecutter.project_name | lower | replace(' ', '-') }}</string>
 			</array>
 		</dict>
 	</array>
